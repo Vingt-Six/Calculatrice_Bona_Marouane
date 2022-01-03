@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .Gdiv {
     background-color: rgb(80, 79, 79);
     width: 30%;
     margin: 0 auto;
     border-radius: 10px;
+    padding-top: 1px;
 }
 
 .partEcran {
@@ -11,12 +17,13 @@
 
 .ecran {
     width: 90%;
-    height: 50px;
-    margin: 15px auto;
+    height: 70px;
+    margin: 30px auto;
     border-radius: 8px;
     background-color: rgb(34, 34, 34);
     color: white;
     font-size: 35px;
+    padding-left: 10px;
 }
 
 input {
@@ -24,12 +31,18 @@ input {
     height: 100px;
     border-radius: 15px;
     font-size: 25px;
+    box-shadow: 2px 1px 5px black;
+}
+
+input:active {
+    background-color: dodgerblue;
+    color: white;
 }
 
 .top, .mid, .bot, .bottom {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .addi, .sous, .multi, .divi, .clear, .zero, .result {
@@ -44,4 +57,9 @@ input {
     background-color: firebrick;
     color: white;
     font-size: 40px;
+}
+
+.result {
+    background-color: rgb(211, 103, 76);
+    color: white;
 }
