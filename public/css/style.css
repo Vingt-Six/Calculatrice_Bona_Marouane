@@ -1,0 +1,22 @@
+.Gdiv {
+    background-color: rgb(80, 79, 79);
+    width: 30%;
+    margin: 0 auto;
+}
+
+.partEcran {
+    display: flex;
+}
+
+.ecran {
+    width: 90%;
+    height: 40px;
+    margin: 15px auto;
+    border-radius: 8px;
+    background-color: rgb(34, 34, 34);
+}
+
+input {
+    width: 70px;
+    height: 70px;
+}
