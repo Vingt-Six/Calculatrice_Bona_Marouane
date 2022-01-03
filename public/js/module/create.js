@@ -48,6 +48,7 @@ divTop.append(neuf)
 let plus = document.createElement('input')
 plus.type = 'button'
 plus.value = '+'
+plus.className = 'addi'
 divTop.append(plus)
 
 // part mid button
@@ -69,6 +70,7 @@ divMid.append(six)
 let moins = document.createElement('input')
 moins.type = 'button'
 moins.value = '-'
+moins.className = 'sous'
 divMid.append(moins)
 
 // part bot button
@@ -90,25 +92,30 @@ divBot.append(trois)
 let fois = document.createElement('input')
 fois.type = 'button'
 fois.value = '*'
+fois.className = 'multi'
 divBot.append(fois)
 
 // part bottom button
 let clear = document.createElement('input')
 clear.type = 'button'
 clear.value = 'C'
+clear.className = 'clear'
 divBottom.append(clear)
 
 let zero = document.createElement('input')
 zero.type = 'button'
 zero.value = '0'
+zero.className = 'zero'
 divBottom.append(zero)
 
 let egale = document.createElement('input')
 egale.type = 'button'
 egale.value = '='
+egale.className = 'result'
 divBottom.append(egale)
 
 let divise = document.createElement('input')
 divise.type = 'button'
 divise.value = '/'
+divise.className = 'divi'
 divBottom.append(divise)
