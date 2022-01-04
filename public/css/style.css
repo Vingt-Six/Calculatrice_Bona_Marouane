@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 * {
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background: linear-gradient(to right, rgb(55, 112, 79), rgb(113, 153, 158));
+}
+
 .Gdiv {
-    background-color: rgb(80, 79, 79);
+    background-color: rgb(41, 41, 41);
     width: 30%;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 30px;
     padding-top: 1px;
+    box-shadow: 2px 10px 10px black;
 }
 
 .partEcran {
@@ -20,23 +26,26 @@
     height: 70px;
     margin: 30px auto;
     border-radius: 8px;
-    background-color: rgb(34, 34, 34);
-    color: white;
-    font-size: 35px;
+    background-color: rgb(62, 90, 50);
+    color: rgb(185, 185, 185);
+    font-size: 60px;
     padding-left: 10px;
+    font-family: 'VT323', monospace;
 }
 
 input {
     width: 100px;
     height: 100px;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 40px;
     box-shadow: 2px 1px 5px black;
+    background-color: rgb(97, 97, 97);
+    color: white;
 }
 
 input:active {
-    background-color: dodgerblue;
-    color: white;
+    background-color: rgb(22, 22, 22);
+    color: rgb(255, 255, 255);
 }
 
 .top, .mid, .bot, .bottom {
@@ -45,21 +54,20 @@ input:active {
     padding-bottom: 10px;
 }
 
-.addi, .sous, .multi, .divi, .clear, .zero, .result {
-    border-radius: 50%;
-}
-
 .addi, .sous, .multi, .divi {
     background-color: darkseagreen;
+    border-radius: 50%;
 }
 
 .clear {
     background-color: firebrick;
     color: white;
-    font-size: 40px;
+    border-radius: 50%;
 }
 
 .result {
-    background-color: rgb(211, 103, 76);
+    background-color: rgb(39, 39, 39);
     color: white;
+    border-radius: 50%;
 }
+

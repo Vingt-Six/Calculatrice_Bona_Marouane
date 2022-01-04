@@ -17,7 +17,7 @@ number.forEach(element => {
 // target les opérteur
 oprateur.forEach(element => {
     element.addEventListener('click', function(){
-        nbr1 = ecran.value
+        nbr1 = parseInt(ecran.value)
         ecran.value = ''
         ope = element.value
     })
@@ -28,19 +28,19 @@ egale.addEventListener('click', function(){
     let nbr2 = parseInt(ecran.value)
     switch (ope) {
         case '+':
-            resultat = parseInt(nbr1) + nbr2
+            resultat = nbr1 + nbr2
             ecran.value = resultat
             break;
         case '-':
-            resultat = parseInt(nbr1) - nbr2
+            resultat = nbr1 - nbr2
             ecran.value = resultat
             break;
         case '*':
-            resultat = parseInt(nbr1) * nbr2  
+            resultat = nbr1 * nbr2  
             ecran.value = resultat
             break;
         case '/':
-            resultat = parseInt(nbr1) / nbr2
+            resultat = nbr1 / nbr2
             ecran.value = resultat
             break;
     }
